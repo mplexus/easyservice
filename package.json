@@ -1,0 +1,23 @@
+{
+  "name": "easyservice",
+  "version": "1.0.0",
+  "description": "easy service provider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mplexus/easyservice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "multer": "^1.3.0"
+  }
+}
