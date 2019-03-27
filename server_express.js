@@ -9,6 +9,10 @@ app.get('/', function (req, res) {
   res.send('Hello World');
 });
 
+app.put('/accept', function (req, res) {
+  res.send('Thank you.');
+});
+
 app.post('/token', function (req, res) {
   res.send('Thank you.');
 });
